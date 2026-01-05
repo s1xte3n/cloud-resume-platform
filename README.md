@@ -1,6 +1,6 @@
 # Cloud Resume Platform
 
-íº€ A modern, CI/CD-enabled resume platform built with Jekyll and GitHub Actions.
+ï¿½ï¿½ï¿½ A modern, CI/CD-enabled resume platform built with Jekyll and GitHub Actions.
 
 ## Live Site
 
@@ -17,6 +17,7 @@
 ## Development
 
 ### Local Setup
+
 ```bash
 bundle install
 bundle exec jekyll serve
