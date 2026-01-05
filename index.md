@@ -1,8 +1,8 @@
 ---
-layout: resume
+layout: default
 title: Resume
 ---
 
-# Welcome
+This is my professional resume, managed like production software with CI/CD pipelines, automated testing, and security scanning.
 
-View my professional resume below or download as PDF.
+Check out my experience, skills, and certifications below!

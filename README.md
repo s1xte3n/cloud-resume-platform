@@ -1,11 +1,13 @@
 # Cloud Resume Platform
 
-ðŸš€ A modern, CI/CD-enabled resume platform built with Jekyll and GitHub Actions.
+íº€ A modern, CI/CD-enabled resume platform built with Jekyll and GitHub Actions.
 
 ## Live Site
+
 [View Resume](https://s1xte3n.github.io/cloud-resume-platform/)
 
 ## Features
+
 - Markdown-based content management
 - Automated CI/CD pipeline
 - Security scanning with CodeQL
@@ -21,9 +23,11 @@ bundle exec jekyll serve
 ```
 
 ### Using Codespaces
+
 Click the "Code" button â†’ "Create codespace on main"
 
 ## Workflow
+
 1. Create feature branch
 2. Make changes to resume content
 3. Open pull request
@@ -31,6 +35,7 @@ Click the "Code" button â†’ "Create codespace on main"
 5. Merge to deploy to production
 
 ## Project Structure
+
 - `_data/resume.yml` - Resume content
 - `_layouts/` - Page templates
 - `.github/workflows/` - CI/CD pipelines
