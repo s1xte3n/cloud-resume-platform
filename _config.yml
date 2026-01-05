@@ -4,7 +4,6 @@ url: "https://s1xte3n.github.io"
 baseurl: "/cloud-resume-platform"
 
 markdown: kramdown
-theme: minima
 
 plugins:
   - jekyll-feed
