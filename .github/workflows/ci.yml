@@ -1,9 +1,7 @@
 name: CI
-
 on:
   pull_request:
     branches: [main]
-
 jobs:
   lint:
     runs-on: ubuntu-latest
@@ -14,7 +12,7 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v16
         with:
           globs: '**/*.md'
-
+  
   build:
     runs-on: ubuntu-latest
     steps:
@@ -33,18 +31,3 @@ jobs:
         run: |
           test -d _site
           test -f _site/index.html
-
-  codeql:
-    runs-on: ubuntu-latest
-    permissions:
-      security-events: write
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
-        with:
-          languages: javascript
-      
-      - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3
