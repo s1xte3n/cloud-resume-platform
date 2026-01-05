@@ -1,0 +1,37 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - 'release/**'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g., v1.0.0)'
+        required: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.event.inputs.version || 'auto' }}
+          release_name: Release ${{ github.event.inputs.version || 'auto' }}
+          draft: false
+          prerelease: false
+          body: |
+            ## Changes in this Release
+            
+            Resume updated with latest professional information.
+            
+            See commit history for detailed changes.
