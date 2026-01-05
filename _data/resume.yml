@@ -32,11 +32,20 @@ experience:
 
 skills:
   - category: Cloud Platforms
-    items: [AWS, Azure, GCP]
+    items:
+      - AWS
+      - Azure
+      - GCP
   - category: DevOps Tools
-    items: [GitHub Actions, Jenkins, Docker, Kubernetes]
+    items:
+      - GitHub Actions
+      - Docker
+      - Kubernetes
   - category: Languages
-    items: [Python, Bash, YAML, Go]
+    items:
+      - Python
+      - Bash
+      - YAML
 
 education:
   - degree: Bachelor of Science in Computer Science
