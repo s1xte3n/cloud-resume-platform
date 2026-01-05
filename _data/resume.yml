@@ -1,59 +1,93 @@
 name: Ntlantla Thokozani Nhlapo
-title: DevOps Engineer | Cloud Engineer | CI/CD Specialist
+title: Field ICT Technician | Desktop Support Engineer | Junior Cybersecurity Analyst
 email: ntnhlapo16@gmail.com
-phone: "+2761-253-4992"
+phone: "+27-72-643-0446"
 location: Vereeniging, Gauteng, South Africa
 linkedin: linkedin.com/in/ntnhlapo16
 github: github.com/s1xte3n
 
 summary: |
-  Experienced DevOps professional specializing in cloud infrastructure,
-  CI/CD automation, and secure software delivery practices.
+  ICT professional with hands-on experience in desktop support, networking (Cisco CCNA), 
+  Active Directory, and ITSM tools. Currently pursuing (ISC)² Certified in Cybersecurity (CC) 
+  and AWS Certified Developer – Associate (DVA-C02). Committed to delivering efficient, secure, 
+  and scalable ICT solutions aligned with Batho Pele principles.
 
 experience:
-  - company: Company Name
-    position: Senior DevOps Engineer
-    location: Remote
-    start_date: "2022-01"
-    end_date: "Present"
+  - company: Gijima Holdings
+    position: IT Operator
+    location: South Africa
+    start_date: "2022"
+    end_date: Present
     responsibilities:
-      - Architected CI/CD pipelines using GitHub Actions
-      - Reduced deployment time by 60% through automation
-      - Implemented security scanning across all repositories
+      - Installed, configured, and maintained user workstations and networked printers
+      - Logged, tracked, and resolved incidents via internal ticketing systems, improving SLA compliance
+      - Assisted in managing LAN infrastructure, user access controls, and uptime reporting
+      - Administered Active Directory user provisioning, password resets, and group policy implementation
+      - Led disaster recovery efforts during outages, reducing downtime by 30%
+      - Automated reporting and log analysis, reducing incident response time by 40%
 
-  - company: Previous Company
-    position: DevOps Engineer
-    location: City, Country
-    start_date: "2020-01"
-    end_date: "2021-12"
+  - company: Census Stats SA
+    position: Field Worker Supervisor
+    location: South Africa
+    start_date: Feb 2022
+    end_date: Mar 2022
     responsibilities:
-      - Managed AWS infrastructure using Terraform
-      - Built monitoring and alerting systems
+      - Supervised team of 4 field workers, ensuring 100% accuracy in data collection within strict deadlines
+      - Coordinated with regional officers to maintain census data quality standards
+
+  - company: Electoral Commission
+    position: Election Electoral Staff
+    location: South Africa
+    start_date: Nov 2021
+    end_date: Nov 2021
+    responsibilities:
+      - Managed polling stations ensuring compliance with election protocols
+      - Facilitated seamless voting process for community members
 
 skills:
-  - category: Cloud Platforms
+  - category: Technical Support
     items:
-      - AWS
-      - Azure
-      - GCP
-  - category: DevOps Tools
+      - Desktop & Printer Support
+      - Hardware & Software Troubleshooting
+      - OS Installation (Windows/Linux)
+      - ITSM Tools & Ticket Management
+  - category: Networking & Infrastructure
     items:
-      - GitHub Actions
-      - Docker
-      - Kubernetes
-  - category: Languages
+      - LAN/WAN Setup & Diagnostics
+      - TCP/IP Protocol Suite
+      - Cisco CCNA R&S
+      - Network Security Basics
+  - category: System Administration
     items:
-      - Python
-      - Bash
-      - YAML
+      - Windows Server
+      - Active Directory
+      - User Account Management
+      - Group Policy Implementation
+  - category: Cloud & Security (In Progress)
+    items:
+      - AWS Cloud Development
+      - Cybersecurity Fundamentals
+      - Security Awareness & Best Practices
+      - Backup & Data Continuity
 
 education:
-  - degree: Bachelor of Science in Computer Science
-    institution: University Name
-    graduation_date: "2019"
+  - degree: National Diploma in Information Technology (NQF Level 6)
+    institution: Vaal University of Technology
+    graduation_date: "2022"
+    major: Software Engineering, Technical Programming, Business Analysis/ICT Management
 
 certifications:
-  - name: AWS Certified Solutions Architect
-    date: "2023"
-  - name: Certified Kubernetes Administrator
-    date: "2022"
+  - name: Cisco CCNA R&S - Routing and Switching Essentials
+    date: Completed
+  - name: Cisco CCNA R&S - Introduction to Networks
+    date: Completed
+  - name: Cisco IT Essentials - PC Hardware and Software
+    date: Completed
+  - name: (ISC)² Certified in Cybersecurity (CC)
+    date: In Progress
+  - name: AWS Certified Developer – Associate (DVA-C02)
+    date: In Progress
+  - name: AWS Educate - Introduction to Cloud 101
+    date: Completed
+  - name: freeCodeCamp - Responsive Web Design
+    date: Completed
