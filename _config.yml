@@ -1,0 +1,17 @@
+title: Ntlantla Thokozani Nhlapo - CV
+description: Professional resume and portfolio
+url: "https://s1xte3n.github.io"
+baseurl: "/cloud-resume-platform"
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .github

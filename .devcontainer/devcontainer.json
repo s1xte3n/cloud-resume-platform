@@ -1,0 +1,24 @@
+{
+    "name": "Cloud Resume Platform",
+    "image": "mcr.microsoft.com/devcontainers/ruby:3.2",
+    "features": {
+      "ghcr.io/devcontainers/features/github-cli:1": {}
+    },
+    "postCreateCommand": "bundle install",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "shopify.ruby-lsp",
+          "DavidAnson.vscode-markdownlint",
+          "yzhang.markdown-all-in-one"
+        ]
+      }
+    },
+    "forwardPorts": [4000],
+    "portsAttributes": {
+      "4000": {
+        "label": "Jekyll Server",
+        "onAutoForward": "notify"
+      }
+    }
+  }

@@ -1,0 +1,59 @@
+name: Ntlantla Thokozani Nhlapo
+title: DevOps Engineer | Cloud Engineer | CI/CD Specialist
+email: ntnhlapo16@gmail.com
+phone: "+2761-253-4992"
+location: Vereeniging, Gauteng, South Africa
+linkedin: linkedin.com/in/ntnhlapo16
+github: github.com/s1xte3n
+
+summary: |
+  Experienced DevOps professional specializing in cloud infrastructure,
+  CI/CD automation, and secure software delivery practices.
+
+experience:
+  - company: Company Name
+    position: Senior DevOps Engineer
+    location: Remote
+    start_date: "2022-01"
+    end_date: "Present"
+    responsibilities:
+      - Architected CI/CD pipelines using GitHub Actions
+      - Reduced deployment time by 60% through automation
+      - Implemented security scanning across all repositories
+
+  - company: Previous Company
+    position: DevOps Engineer
+    location: City, Country
+    start_date: "2020-01"
+    end_date: "2021-12"
+    responsibilities:
+      - Managed AWS infrastructure using Terraform
+      - Built monitoring and alerting systems
+
+skills:
+  - category: Cloud Platforms
+    items:
+      - AWS
+      - Azure
+      - GCP
+  - category: DevOps Tools
+    items:
+      - GitHub Actions
+      - Docker
+      - Kubernetes
+  - category: Languages
+    items:
+      - Python
+      - Bash
+      - YAML
+
+education:
+  - degree: Bachelor of Science in Computer Science
+    institution: University Name
+    graduation_date: "2019"
+
+certifications:
+  - name: AWS Certified Solutions Architect
+    date: "2023"
+  - name: Certified Kubernetes Administrator
+    date: "2022"
